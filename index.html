@@ -6,35 +6,23 @@
     <title>Vijnjan-Multilanguage</title>
 </head>
 <body>
-    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
 
-<script>
+    <script>
+        function loadGoogleTranslate() {
+            new google.translate.TranslateElement("myid");
+        }
+    </script>
 
-	function loadGoogleTranslate()
+    <div id="myid" style="color: violet;">Choose Language</div>
 
-	{
+    <h1 style="color: blueviolet;">Welcome to Vijnjan</h1>
 
-		new google.translate.TranslateElement("myid")
+    <h2>Come Along As We Begin Our Learning Journey</h2>
 
-	}
-
-</script>
-
-<div id="myid" style="color: violet;">Choose Language</div>
-
-
-
-<h1 style="color: blueviolet;">Welcome to Vijnjan</h1>
-
-<h2>Come Along
-As We Begin Our
-LearningJourney</h2>
-
-<i>As a dedicated tutor with a passion for teaching, I am committed to
+    <i>As a dedicated tutor with a passion for teaching, I am committed to
     inspiring and empowering students to reach their full potential.
     My motivation comes from seeing my students grow, succeed, and
     develop a lifelong love for learning.</i>
-
-
 </body>
 </html>
